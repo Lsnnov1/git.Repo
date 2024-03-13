@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(14, 14, 14);
+  color: aliceblue;
+}
+
+#game div {
+  border: 1px solid white;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+ div .red.flipped{
+  background-color: red;
+  transition: 250ms;
+  border-radius: 5%;
+}
+
+div .blue.flipped {
+  background-color: blue;
+  transition: 250ms;
+  border-radius: 5%;
+}
+div .green.flipped {
+  background-color:green ;
+  transition: 250ms;
+  border-radius: 5%;
+}
+div .orange.flipped {
+  background-color: rgb(255, 102, 0);
+  transition: 250ms;
+  border-radius: 5%;
+} 
+div .purple.flipped {
+  background-color: rgb(132, 17, 227);
+  transition: 250ms;
+  border-radius: 5%;
+} 
+
+#reset {
+  background-color: aliceblue;
+  font-size: 20px;
+}
+
+#reset:hover{
+  background-color: grey;
+}
